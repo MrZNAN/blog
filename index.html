@@ -815,7 +815,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://mrznan.github.io/blog/2019/08/25/高并发/JavaConcurrencyBasicsCommonInterviewQuestionsSummary/">
+    <link itemprop="mainEntityOfPage" href="https://mrznan.github.io/blog/2019/08/25/高并发/1并发编程基础知识/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="米斯特鲁斯">
@@ -829,7 +829,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
             
-            <a href="/blog/2019/08/25/高并发/JavaConcurrencyBasicsCommonInterviewQuestionsSummary/" class="post-title-link" itemprop="url">Java 并发基础常见面试题总结2</a>
+            <a href="/blog/2019/08/25/高并发/1并发编程基础知识/" class="post-title-link" itemprop="url">并发基础知识</a>
           
         </h2>
 
@@ -845,7 +845,7 @@
                 
               
 
-              <time title="创建时间：2019-08-25 20:46:25 / 修改时间：17:10:29" itemprop="dateCreated datePublished" datetime="2019-08-25T20:46:25+08:00">2019-08-25</time>
+              <time title="创建时间：2019-08-25 20:46:25 / 修改时间：17:10:32" itemprop="dateCreated datePublished" datetime="2019-08-25T20:46:25+08:00">2019-08-25</time>
             </span>
           
             
@@ -877,7 +877,7 @@
       
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/blog/2019/08/25/高并发/JavaConcurrencyBasicsCommonInterviewQuestionsSummary/#comments" itemprop="discussionUrl"><span class="post-comments-count valine-comment-count" data-xid="/blog/2019/08/25/高并发/JavaConcurrencyBasicsCommonInterviewQuestionsSummary/" itemprop="commentCount"></span></a>
+    <a title="valine" href="/blog/2019/08/25/高并发/1并发编程基础知识/#comments" itemprop="discussionUrl"><span class="post-comments-count valine-comment-count" data-xid="/blog/2019/08/25/高并发/1并发编程基础知识/" itemprop="commentCount"></span></a>
   </span>
   
   
@@ -889,7 +889,7 @@
               
                 <span class="post-meta-item-text">本文字数：</span>
               
-              <span>8.4k</span>
+              <span>11k</span>
             </span>
           
             <span class="post-meta-item" title="阅读时长">
@@ -899,7 +899,7 @@
               
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
               
-              <span>8 分钟</span>
+              <span>10 分钟</span>
             </span>
           
 
@@ -912,11 +912,11 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="1-什么是线程和进程"><a href="#1-什么是线程和进程" class="headerlink" title="1. 什么是线程和进程?"></a>1. 什么是线程和进程?</h2><h3 id="1-1-何为进程"><a href="#1-1-何为进程" class="headerlink" title="1.1. 何为进程?"></a>1.1. 何为进程?</h3><p>进程是程序的一次执行过程，是系统运行程序的基本单位，因此进程是动态的。系统运行一个程序即是一个进程从创建，运行到消亡的过程。</p><p>在 Java 中，当我们启动 main 函数时其实就是启动了一个 JVM 的进程，而 main 函数所在的线程就是这个进程中的一个线程，也称主线程。</p>
+          <p>Java 并发的基础知识，可能会在笔试中遇到，技术面试中也可能以并发知识环节提问的第一个问题出现。比如面试官可能会问你：“谈谈自己对于进程和线程的理解，两者的区别是什么？”</p><p><strong>本节思维导图：</strong></p><h2 id="一-进程和线程"><a href="#一-进程和线程" class="headerlink" title="一 进程和线程"></a>一 进程和线程</h2><p>进程和线程的对比这一知识点由于过于基础，所以在面试中很少碰到，但是极有可能会在笔试题中碰到。</p><p>常见的提问形式是这样的：<strong>“什么是线程和进程?，请简要描述线程与进程的关系、区别及优缺点？ ”</strong>。</p>
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/blog/2019/08/25/高并发/JavaConcurrencyBasicsCommonInterviewQuestionsSummary/#more" rel="contents">
+              <a class="btn" href="/blog/2019/08/25/高并发/1并发编程基础知识/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1079,138 +1079,6 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://mrznan.github.io/blog/2019/08/25/高并发/1并发编程基础知识/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="米斯特鲁斯">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://avatars3.githubusercontent.com/u/53801540?s=400&u=78c9fa0848948d085ea8f84dfb4cd0fb93e9d644&v=4">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="米斯特鲁斯">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-            
-            <a href="/blog/2019/08/25/高并发/1并发编程基础知识/" class="post-title-link" itemprop="url">并发基础知识</a>
-          
-        </h2>
-
-        <div class="post-meta">
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              
-                
-              
-
-              <time title="创建时间：2019-08-25 20:46:25 / 修改时间：17:10:32" itemprop="dateCreated datePublished" datetime="2019-08-25T20:46:25+08:00">2019-08-25</time>
-            </span>
-          
-            
-
-            
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="fa fa-comment-o"></i>
-      </span>
-        
-      
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/blog/2019/08/25/高并发/1并发编程基础知识/#comments" itemprop="discussionUrl"><span class="post-comments-count valine-comment-count" data-xid="/blog/2019/08/25/高并发/1并发编程基础知识/" itemprop="commentCount"></span></a>
-  </span>
-  
-  
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">本文字数：</span>
-              
-              <span>11k</span>
-            </span>
-          
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              
-              <span>10 分钟</span>
-            </span>
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Java 并发的基础知识，可能会在笔试中遇到，技术面试中也可能以并发知识环节提问的第一个问题出现。比如面试官可能会问你：“谈谈自己对于进程和线程的理解，两者的区别是什么？”</p><p><strong>本节思维导图：</strong></p><h2 id="一-进程和线程"><a href="#一-进程和线程" class="headerlink" title="一 进程和线程"></a>一 进程和线程</h2><p>进程和线程的对比这一知识点由于过于基础，所以在面试中很少碰到，但是极有可能会在笔试题中碰到。</p><p>常见的提问形式是这样的：<strong>“什么是线程和进程?，请简要描述线程与进程的关系、区别及优缺点？ ”</strong>。</p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/blog/2019/08/25/高并发/1并发编程基础知识/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-          <div class="post-eof"></div>
-        
-      </footer>
-  </div>
-  
-  
-  
-  </article>
-
-    
-      
-
-  <article class="post" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://mrznan.github.io/blog/2019/08/25/高并发/Atomic/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1321,6 +1189,138 @@
           
             <div class="post-button text-center">
               <a class="btn" href="/blog/2019/08/25/高并发/Atomic/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
+  
+  
+  
+  </article>
+
+    
+      
+
+  <article class="post" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://mrznan.github.io/blog/2019/08/25/高并发/JavaConcurrencyBasicsCommonInterviewQuestionsSummary/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="米斯特鲁斯">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://avatars3.githubusercontent.com/u/53801540?s=400&u=78c9fa0848948d085ea8f84dfb4cd0fb93e9d644&v=4">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="米斯特鲁斯">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+            
+            <a href="/blog/2019/08/25/高并发/JavaConcurrencyBasicsCommonInterviewQuestionsSummary/" class="post-title-link" itemprop="url">Java 并发基础常见面试题总结2</a>
+          
+        </h2>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-25 20:46:25 / 修改时间：17:10:29" itemprop="dateCreated datePublished" datetime="2019-08-25T20:46:25+08:00">2019-08-25</time>
+            </span>
+          
+            
+
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+        
+      
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/blog/2019/08/25/高并发/JavaConcurrencyBasicsCommonInterviewQuestionsSummary/#comments" itemprop="discussionUrl"><span class="post-comments-count valine-comment-count" data-xid="/blog/2019/08/25/高并发/JavaConcurrencyBasicsCommonInterviewQuestionsSummary/" itemprop="commentCount"></span></a>
+  </span>
+  
+  
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">本文字数：</span>
+              
+              <span>8.4k</span>
+            </span>
+          
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              
+              <span>8 分钟</span>
+            </span>
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="1-什么是线程和进程"><a href="#1-什么是线程和进程" class="headerlink" title="1. 什么是线程和进程?"></a>1. 什么是线程和进程?</h2><h3 id="1-1-何为进程"><a href="#1-1-何为进程" class="headerlink" title="1.1. 何为进程?"></a>1.1. 何为进程?</h3><p>进程是程序的一次执行过程，是系统运行程序的基本单位，因此进程是动态的。系统运行一个程序即是一个进程从创建，运行到消亡的过程。</p><p>在 Java 中，当我们启动 main 函数时其实就是启动了一个 JVM 的进程，而 main 函数所在的线程就是这个进程中的一个线程，也称主线程。</p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/blog/2019/08/25/高并发/JavaConcurrencyBasicsCommonInterviewQuestionsSummary/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1516,6 +1516,18 @@
               <time title="创建时间：2019-08-24 07:24:32" itemprop="dateCreated datePublished" datetime="2019-08-24T07:24:32+08:00">2019-08-24</time>
             </span>
           
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-09-08 21:19:36" itemprop="dateModified" datetime="2019-09-08T21:19:36+08:00">2019-09-08</time>
+              </span>
+            
+          
 
           
   
@@ -1540,7 +1552,7 @@
               
                 <span class="post-meta-item-text">本文字数：</span>
               
-              <span>421</span>
+              <span>1.1k</span>
             </span>
           
             <span class="post-meta-item" title="阅读时长">
@@ -1765,7 +1777,7 @@
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">290k</span>
+    <span title="站点总字数">291k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
